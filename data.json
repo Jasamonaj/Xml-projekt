@@ -1,0 +1,32 @@
+{
+  "title": "Max Verstappen",
+  "sections": [
+    {
+      "id": "pt1",
+      "title": "Rani život",
+      "content": "Max Emilian Verstappen, rođen 30.9.1997. u Nizozemskoj sin je trkaća Jos Verstappena i trkačice Sophie Kumpen. Bio je uspješan u junior kartingu i oborio je više rekorda u mladoj dobi.",
+      "image": "mladimax.jpg"
+    },
+    {
+      "id": "pt2",
+      "title": "Rana karijera",
+      "content": "2015. u Australijskom Grand Prixu Max je postao najmlađi vozač koji se ikad natjecao u Formuli One. Bio je star 17 godina i 166 dana. S 18 godina osvojio je 2016 Grand Prix u španjolskoj u debutantnoj utrci za Red Bull.",
+      "image": "max.jpg"
+    },
+    {
+      "id": "pt3",
+      "title": "Najveći uspjesi",
+      "content": "Max je kroz svoju karijeru oborio mnoge rekorde i pobjedio mnoga takmičenja, no najveći uspjesi su mu: 2020 Australijski Grand Prix: Treće mjesto, 2021 Bahrijski Grand Prix: Svjetski šampion, Svejtski šampion 2022 godine i uskoro 2023 godine",
+      "image": "maxtrofeji.jpg"
+    }
+  ],
+  "table": {
+    "headers": ["Formula 1 karijera", "Scuderia Toro Rosso", "Red Bull 2018", "Red Bull 2019", "Red Bull 2020", "Red Bull 2021"],
+    "rows": [
+      ["Utkrivanje generalno", "FIA Europsko Formula 3 liga prvaka", "Macau Grand Prix", "Formula One", "Formula One razni rekordi", "Ostala manja natjecanja"],
+      ["Nagrade", "NOC*NSF Mladi Talent 2014", "FIA Osobnost godine 2015-2017", "Lorenzo Bandini Trofej 2016", "Nizozemski sportaš godine 2016, 2021", "Autosport internacionalni trkač godine 2021"],
+      ["Karting karijera", "2005 drugo mjesto", "2006 prvo mjesto x3", "2008 prvo mjesto x3", "2009 prvo mjesto x3", "2010 prvo mjesto x4, drugo mjesto x2"],
+      ["Formula 1 rezultati", "2019 treće mjesto", "2020 treće mjesto", "2021 prvo mjesto", "2022 prvo mjesto", "2023 prvo mjesto"]
+    ]
+  }
+}

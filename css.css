@@ -1,0 +1,288 @@
+body {
+	font-family: Helvetica, sans-serif;
+}
+
+.image {
+    display: flex;
+	padding-left: 0px;
+}
+
+.image img {
+    height: auto;
+	display: flex;
+}
+
+.imgcontainer {
+    width: 100%;
+	display: flex;
+	background-color: rgba(255,255,255,255);
+}
+
+.linkcontainer {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 36px;
+
+	display: flex;
+	align-content: stretch;
+	align-items: center;
+
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+	background-color: rgba(255,255,255,255);
+	padding: 5px;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+	background-color: rgba(255,255,255,255);
+}
+
+a:hover {
+	color: rgba(54,54,54,255);
+	text-decoration: none;
+	background-color: rgba(255,130,40,255);
+	border-radius: 5px;
+}
+
+a:active {
+	color: black;
+	text-decoration: none;
+	background-color: rgba(255,255,255,255);
+}
+
+.content {
+	color: black;
+	background-color: rgba(255,255,255,255);
+	padding: 30px;
+	line-height: 300%;
+	padding-right: 190px;
+	padding-left: 190px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 18px;
+	padding-top: 8px;
+	padding-left: 30px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+h6 {
+	font-size: 14px;
+	padding-top: 8px;
+	padding-left: 30px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.copyright {
+	display: flex;
+	font-size: 12px;
+	background-color: rgba(220,220,220,255);
+	padding: 8px;
+	color: black;
+	justify-content: space-between;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.copyrightL {
+	display: flex;
+	text-align: left;
+}
+
+.copyrightR {
+	display: flex;
+	text-align: right;
+}
+ 
+ul.p {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+li.p {
+	padding-left: 250px;
+	padding-right: 40px;
+	padding-bottom: 120px;
+	list-style-type: none;
+}
+
+.listimg {
+	width: 650px;
+	height: auto;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	transition: transform .5s;
+}
+.listimg:hover {
+	transform: scale(1.3);
+}
+
+.listtitleP {
+	font-size: 24px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+.listdescP {
+	font-size: 18px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	width: 350px;
+}
+
+.listtitleK {
+	font-size: 24px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+.listdescK {
+	font-size: 18px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 35px;
+	width: 350px;
+}
+
+ul.k {
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+}
+
+li.k {
+	padding-left: 50px;
+	padding-right: 40px;
+	padding-bottom: 30px;
+	list-style-type: none;
+}
+
+ol.faq {
+	list-style-type: upper-roman;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+.faqp {
+	font-size: 24px;
+}
+
+.faqo {
+	font-size: 18px;
+}
+
+
+
+input[type=text], select {
+	width: 30%;
+	padding-left: 50px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 100%;
+	background-color: rgba(255,255,255,255);
+	color: black;
+	font-size: 18px;
+	padding: 3px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+input[type=submit]:hover {
+	color: rgba(255,255,255,255);
+	background-color: rgba(220,220,220,255);
+}
+
+
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 2px;
+  background-color: rgba(220,220,220,255);
+  font-size: 14px;
+  resize: none;
+}
+
+input[type=text], select {
+	width: 30%;
+	padding-left: 50px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	box-sizing: border-box;
+}
+@media (max-width: 768px) {
+    .imgcontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .linkcontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        padding: 15px;
+    }
+
+    .listimg {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    input[type=text], select {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        margin-left: 0;
+    }
+}
